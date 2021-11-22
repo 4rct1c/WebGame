@@ -1,0 +1,86 @@
+table{
+    width: 100%;
+    height: 100%;
+    border: solid;
+    border: 3px;
+    border-color: black;
+    border-collapse: collapse;
+}
+
+.turnBlue{
+    background-color: blue;
+    color: white;
+}
+
+.turnRed{
+    background-color: Red;
+    color: white;
+}
+
+#scoreBlue{
+    color: blue;
+}
+
+#scoreRed{
+    color: Red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+td{
+    padding: 0px;
+
+}
+
+tr{
+    padding: 0px;
+    margin: 0px;
+}
+
+#dice{
+    color: ivory;
+    display: flex;
+    width: 250px;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #303030;
+    opacity: 0.7;
+}
+
+#yMax{
+    background-color: #303030;
+    color: ivory;
+}
+#xMax{
+    background-color: #303030;
+    color: ivory;
+}
+#build{
+    background-color: #303030;
+    color: ivory;
+}
+
+#score{
+    display: flex;
+    width: 250px;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #303030;
+    color: ivory;
+    opacity: 0.7;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: linear-gradient(to right, #3939EC,#EC3939);
+}
